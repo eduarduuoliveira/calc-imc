@@ -1,0 +1,99 @@
+body{
+    background-color: rgba(114, 114, 7, 0.24);
+}
+
+#botao-calcular{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    border: solid 7px green;
+}
+
+#botao-calcular:hover{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    border: solid 7px rgb(0, 0, 0);
+    background-color: green;
+    color: white;
+}
+
+.altura{
+    font-size: 50px;
+}
+
+#form{
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+#calcular-botao{
+    text-align: center;
+    margin-top: 1%;
+    font-weight: bold;
+}
+
+input{
+    height: 50px;
+    border: solid 7px green;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+input:hover{
+    height: 50px;
+    border: solid 7px rgb(0, 0, 0);
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+#resultado-imc{
+    border: solid 7px black;
+    float: left;
+    height: 700px;
+    width: 500px;
+    margin-left: 50px;
+    margin-top: -37%;
+    background-color: white;
+    
+}
+
+#resultado-categoria{
+    border: solid 7px black;
+    float: right;
+    height: 700px;
+    width: 500px;
+    margin-right: 50px;
+    margin-top: -37%;
+    background-color: white;
+}
+
+#status{
+    font-size: 25px;
+    font-weight: bold;
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-left: 300px;
+    
+}
+
+#link-git{
+    font-size: 25px;
+    font-weight: bold;
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center; 
+    margin-right: 300px;
+    margin-top: -53px;
+   
+}
+
+a{
+    color: green;
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+}
